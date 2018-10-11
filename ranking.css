@@ -1,0 +1,58 @@
+h1{
+    color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+}
+.table{
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 140%;
+}
+.teams{
+    margin-left:20px;
+    float:left;
+}
+.styleHeader{
+    text-decoration: underline rgb(19, 3, 41);
+}
+.scoreMatch{
+    margin-left:20px;
+    float:left;
+}
+.average{
+    margin-left:20px;
+    float:left;
+}
+.verticalLine{
+    margin-top:60px;
+    margin-left:20px;
+    float:left;
+    border-left:1px solid #e0e2e1;
+    height:100px;
+}
+.scoreInput{
+    margin-bottom: 20px;
+}
+.hide{
+    display:none;
+}
+#averageButton{
+    margin-top:90px;
+    font-size:120%;
+}
+.teamN{
+    margin-top:90px;
+    color: rgb(201, 36, 7);
+    font-size: 120%;
+}
+
+input[type="number"] {
+    -webkit-appearance: textfield;
+       -moz-appearance: textfield;
+            appearance: textfield;
+    background-color:#eafcf0;
+    border:none;
+  }
+  input[type=number]::-webkit-inner-spin-button, 
+  input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+  }
